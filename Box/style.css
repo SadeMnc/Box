@@ -1,0 +1,304 @@
+.wrapper{
+position: relative;
+height: 100vh;
+background-color: rgb(224, 204, 224) ;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.frame{
+    width: 400px;
+    height: 400px;
+    border-radius: 3px;
+    box-shadow: 2px 13px 14px 5px;
+    background-color: white;
+    overflow: hidden;
+}
+.square0{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid red;
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a0;
+}
+@keyframes a0{
+    50%{
+transform: rotate(180deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square1{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(255, 0, 179);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a1;
+}
+@keyframes a1{
+    50%{
+transform: rotate(170deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square2{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(225, 240, 23);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a2;
+}
+@keyframes a2{
+    50%{
+transform: rotate(160deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square3{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(18, 196, 71);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a3;
+}
+@keyframes a3{
+    50%{
+transform: rotate(150deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square4{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(174, 22, 194);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a4;
+}
+@keyframes a4{
+    50%{
+transform: rotate(140deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square5{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(240, 110, 23);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a5;
+}
+@keyframes a5{
+    50%{
+transform: rotate(130deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square6{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(23, 37, 240);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a6;
+}
+@keyframes a6{
+    50%{
+transform: rotate(120deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square7{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(156, 8, 57);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a7;
+}
+@keyframes a7{
+    50%{
+transform: rotate(110deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square8{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(23, 240, 222);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a8;
+}
+@keyframes a8{
+    50%{
+transform: rotate(100deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square9{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(34, 4, 4);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a9;
+}
+@keyframes a9{
+    50%{
+transform: rotate(90deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square10{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(7, 99, 30);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a10;
+}
+@keyframes a10{
+    50%{
+transform: rotate(80deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square11{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgba(36, 6, 143, 0.507);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a11;
+}
+@keyframes a11{
+    50%{
+transform: rotate(70deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square12{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(102, 4, 4);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a12;
+}
+@keyframes a12{
+    50%{
+transform: rotate(60deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square13{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(102, 4, 4);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a13;
+}
+@keyframes a13{
+    50%{
+transform: rotate(50deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square14{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(43, 6, 73);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a12;
+}
+@keyframes a14{
+    50%{
+transform: rotate(40deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square15{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(102, 4, 102);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a15;
+}
+@keyframes a15{
+    50%{
+transform: rotate(30deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square16{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(4, 91, 102);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a16;
+}
+@keyframes a16{
+    50%{
+transform: rotate(20deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
+.square17{
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgb(205, 224, 32);
+    position: absolute;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-name: a17;
+}
+@keyframes a17{
+    50%{
+transform: rotate(10deg);
+height: 2rem;
+border-radius: 50%;
+    }
+}
